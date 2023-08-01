@@ -1,9 +1,8 @@
 using System;
 using System.Linq.Expressions;
 using System.Reflection;
-using AutoMapper.Collection;
 
-namespace AutoMapper.EquivalencyExpression
+namespace Mapper.Collection.EquivalencyExpression
 {
     internal class EquivalentExpression : IEquivalentComparer
     {

@@ -1,7 +1,7 @@
 using System;
 using System.Linq.Expressions;
 
-namespace AutoMapper.EquivalencyExpression
+namespace Mapper.Collection.EquivalencyExpression
 {
     public interface IEquivalentComparer
     {

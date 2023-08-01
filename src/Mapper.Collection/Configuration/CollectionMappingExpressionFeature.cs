@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Linq.Expressions;
+using AutoMapper;
 using AutoMapper.Features;
-using AutoMapper.Collection.Runtime;
-using AutoMapper.EquivalencyExpression;
+using Mapper.Collection.EquivalencyExpression;
+using Mapper.Collection.Runtime;
 
-namespace AutoMapper.Collection.Configuration
+namespace Mapper.Collection.Configuration
 {
     public class CollectionMappingExpressionFeature<TSource, TDestination> : IMappingFeature
     {

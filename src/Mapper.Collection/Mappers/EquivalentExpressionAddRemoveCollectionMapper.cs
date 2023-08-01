@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using AutoMapper.Collection;
-using AutoMapper.EquivalencyExpression;
+using AutoMapper;
 using AutoMapper.Internal;
 using AutoMapper.Internal.Mappers;
+using Mapper.Collection.EquivalencyExpression;
 using static System.Linq.Expressions.Expression;
 using static AutoMapper.Execution.ExpressionBuilder;
 
-namespace AutoMapper.Mappers
+namespace Mapper.Collection.Mappers
 {
     public class EquivalentExpressionAddRemoveCollectionMapper : IObjectMapper
     {
@@ -18,7 +18,7 @@ namespace AutoMapper.Mappers
 
         public static TDestination Map<TSource, TSourceItem, TDestination, TDestinationItem>(TSource source, TDestination destination, ResolutionContext context, IEquivalentComparer equivalentComparer)
             where TSource : IEnumerable<TSourceItem>
-            where TDestination : ICollection<TDestinationItem>
+            where TDestination : IEnumerable<TDestinationItem>
         {
             if (source == null || destination == null)
             {
@@ -47,7 +47,7 @@ namespace AutoMapper.Mappers
             {
                 if (keypair.DestinationItem == null)
                 {
-                    destination.Add((TDestinationItem)context.Mapper.Map(keypair.SourceItem, null, typeof(TSourceItem), typeof(TDestinationItem)));
+                    destination = destination.Add((TDestinationItem)context.Mapper.Map(keypair.SourceItem, null, typeof(TSourceItem), typeof(TDestinationItem)));
                 }
                 else
                 {
@@ -57,7 +57,7 @@ namespace AutoMapper.Mappers
 
             foreach (var removedItem in destList.SelectMany(x => x.Value))
             {
-                destination.Remove(removedItem);
+                destination = destination.Remove(removedItem);
             }
 
             return destination;

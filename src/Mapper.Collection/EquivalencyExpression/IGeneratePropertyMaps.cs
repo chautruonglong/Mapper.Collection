@@ -1,6 +1,7 @@
 using System.Collections.Generic;
+using AutoMapper;
 
-namespace AutoMapper.EquivalencyExpression
+namespace Mapper.Collection.EquivalencyExpression
 {
     public interface IGeneratePropertyMaps
     {

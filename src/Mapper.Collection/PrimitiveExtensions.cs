@@ -1,4 +1,4 @@
-﻿namespace AutoMapper.Collection
+﻿namespace Mapper.Collection
 {
     using System;
     using System.Collections;
@@ -7,7 +7,7 @@
 
     internal static class PrimitiveExtensions
     {
-        public static bool IsCollectionType(this Type type) => type.ImplementsGenericInterface(typeof(ICollection<>));
+        public static bool IsCollectionType(this Type type) => type.ImplementsGenericInterface(typeof(IEnumerable<>));
         public static bool IsDictionaryType(this Type type) => type.ImplementsGenericInterface(typeof(IDictionary<,>));
         public static bool IsEnumerableType(this Type type) => typeof(IEnumerable).IsAssignableFrom(type);
 

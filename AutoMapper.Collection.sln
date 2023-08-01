@@ -14,9 +14,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 		.github\workflows\release.yml = .github\workflows\release.yml
 		version.props = version.props
+		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMapper.Collection", "src\AutoMapper.Collection\AutoMapper.Collection.csproj", "{37AD667A-8080-476C-88FD-20310AC7CAF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mapper.Collection", "src\Mapper.Collection\Mapper.Collection.csproj", "{37AD667A-8080-476C-88FD-20310AC7CAF3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMapper.Collection.EntityFramework", "src\AutoMapper.Collection.EntityFramework\AutoMapper.Collection.EntityFramework.csproj", "{E0FD41FD-AF5B-4BEC-970F-8412E7B6C914}"
 EndProject

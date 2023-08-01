@@ -3,9 +3,8 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Reflection;
-using AutoMapper.Collection;
 
-namespace AutoMapper.EquivalencyExpression
+namespace Mapper.Collection.EquivalencyExpression
 {
     internal static class ExpressionExtentions
     {

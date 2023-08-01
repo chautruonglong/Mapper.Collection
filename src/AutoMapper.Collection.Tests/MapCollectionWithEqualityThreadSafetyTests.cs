@@ -1,7 +1,7 @@
-﻿using AutoMapper.EquivalencyExpression;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Mapper.Collection.EquivalencyExpression;
 
 namespace AutoMapper.Collection
 {

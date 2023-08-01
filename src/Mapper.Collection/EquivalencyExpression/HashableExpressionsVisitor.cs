@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace AutoMapper.EquivalencyExpression
+namespace Mapper.Collection.EquivalencyExpression
 {
     internal class HashableExpressionsVisitor : ExpressionVisitor
     {

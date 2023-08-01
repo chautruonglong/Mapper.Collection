@@ -1,13 +1,14 @@
 using System;
 using System.Linq;
 using System.Linq.Expressions;
-using AutoMapper.Collection.Configuration;
-using AutoMapper.Collection.Runtime;
+using AutoMapper;
 using AutoMapper.Internal;
 using AutoMapper.Internal.Mappers;
-using AutoMapper.Mappers;
+using Mapper.Collection.Configuration;
+using Mapper.Collection.Mappers;
+using Mapper.Collection.Runtime;
 
-namespace AutoMapper.EquivalencyExpression
+namespace Mapper.Collection.EquivalencyExpression
 {
     public static class EquivalentExpressions
     {

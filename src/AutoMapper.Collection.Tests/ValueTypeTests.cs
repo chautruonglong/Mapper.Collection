@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using AutoMapper.EquivalencyExpression;
+using Mapper.Collection.EquivalencyExpression;
 using Xunit;
 
 namespace AutoMapper.Collection

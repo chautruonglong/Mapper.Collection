@@ -2,12 +2,10 @@
 
   <PropertyGroup>
     <Description>Collection Add/Remove/Update support for AutoMapper. AutoMapper.Collection adds EqualityComparison Expressions for TypeMaps to determine if Source and Destination type are equivalent to each other when mapping collections.</Description>
-    <Authors>Tyler Carlson</Authors>
+    <Authors>Long Chau, Tyler Carlson</Authors>
     <TargetFrameworks>netstandard2.1</TargetFrameworks>
-    <AssemblyName>AutoMapper.Collection</AssemblyName>
-    <PackageId>AutoMapper.Collection</PackageId>
-    <PackageIcon>icon.png</PackageIcon>
-    <PackageProjectUrl>https://github.com/AutoMapper/Automapper.Collection</PackageProjectUrl>
+    <PackageId>Mapper.Collection</PackageId>
+    <PackageProjectUrl>https://github.com/chautruonglong/Mapper.Collection</PackageProjectUrl>
     <AssemblyOriginatorKeyFile>../Key.snk</AssemblyOriginatorKeyFile>
     <ContinuousIntegrationBuild Condition="'$(GITHUB_ACTIONS)' == 'true'">true</ContinuousIntegrationBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -17,10 +15,13 @@
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <Deterministic>true</Deterministic>
+    <Version>9.0.1</Version>
+    <RepositoryUrl>https://github.com/chautruonglong/Mapper.Collection</RepositoryUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\icon.png" Pack="true" PackagePath="" />
+    <None Include="..\..\icon.png" />
   </ItemGroup>
 
   <ItemGroup>

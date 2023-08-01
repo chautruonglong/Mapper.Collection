@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using AutoMapper.Collection.Runtime;
-using AutoMapper.EquivalencyExpression;
 using AutoMapper.Features;
 using AutoMapper.Internal;
-using AutoMapper.Mappers;
+using Mapper.Collection.EquivalencyExpression;
+using Mapper.Collection.Mappers;
+using Mapper.Collection.Runtime;
 
-namespace AutoMapper.Collection.Configuration
+namespace Mapper.Collection.Configuration
 {
     public class GeneratePropertyMapsExpressionFeature : IGlobalFeature
     {

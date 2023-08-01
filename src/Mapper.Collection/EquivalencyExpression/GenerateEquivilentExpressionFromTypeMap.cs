@@ -1,8 +1,8 @@
 using System.Collections.Concurrent;
-using System.Collections.Generic;
 using System.Linq.Expressions;
+using AutoMapper;
 
-namespace AutoMapper.EquivalencyExpression
+namespace Mapper.Collection.EquivalencyExpression
 {
     internal class GenerateEquivalentExpressionFromTypeMap
     {

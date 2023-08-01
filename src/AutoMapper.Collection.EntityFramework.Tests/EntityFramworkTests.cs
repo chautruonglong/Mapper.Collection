@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using AutoMapper.EntityFramework;
-using AutoMapper.EquivalencyExpression;
 using FluentAssertions;
+using Mapper.Collection.EquivalencyExpression;
 using Xunit;
 
 namespace AutoMapper.Collection.EntityFramework.Tests

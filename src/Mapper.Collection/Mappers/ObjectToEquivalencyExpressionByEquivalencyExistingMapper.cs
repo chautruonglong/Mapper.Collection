@@ -2,12 +2,13 @@ using System;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using AutoMapper.EquivalencyExpression;
+using AutoMapper;
 using AutoMapper.Internal;
 using AutoMapper.Internal.Mappers;
+using Mapper.Collection.EquivalencyExpression;
 using static System.Linq.Expressions.Expression;
 
-namespace AutoMapper.Mappers
+namespace Mapper.Collection.Mappers
 {
     public class ObjectToEquivalencyExpressionByEquivalencyExistingMapper : IObjectMapper
     {

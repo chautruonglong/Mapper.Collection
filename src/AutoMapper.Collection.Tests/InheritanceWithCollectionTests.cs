@@ -1,8 +1,8 @@
-﻿using AutoMapper.EquivalencyExpression;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using AutoMapper.Internal;
 using FluentAssertions;
+using Mapper.Collection.EquivalencyExpression;
 using Xunit;
 
 namespace AutoMapper.Collection

@@ -1,8 +1,8 @@
-﻿using AutoMapper.EquivalencyExpression;
-using AutoMapper.Features;
+﻿using AutoMapper.Features;
 using AutoMapper.Internal;
+using Mapper.Collection.EquivalencyExpression;
 
-namespace AutoMapper.Collection.Runtime
+namespace Mapper.Collection.Runtime
 {
     public class CollectionMappingFeature : IRuntimeFeature
     {

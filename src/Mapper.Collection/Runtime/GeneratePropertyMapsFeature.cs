@@ -4,11 +4,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using AutoMapper.EquivalencyExpression;
+using AutoMapper;
 using AutoMapper.Features;
 using AutoMapper.Internal;
+using Mapper.Collection.EquivalencyExpression;
 
-namespace AutoMapper.Collection.Runtime
+namespace Mapper.Collection.Runtime
 {
     public class GeneratePropertyMapsFeature : IRuntimeFeature
     {

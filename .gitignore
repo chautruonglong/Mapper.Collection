@@ -193,3 +193,5 @@ ModelManifest.xml
 /artifacts
 *.lock.json
 /results
+
+.idea

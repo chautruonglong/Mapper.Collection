@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AutoMapper.Collection\AutoMapper.Collection.csproj" />
+    <ProjectReference Include="..\Mapper.Collection\Mapper.Collection.csproj" />
   </ItemGroup>
 
   <ItemGroup>

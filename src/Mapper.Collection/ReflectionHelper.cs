@@ -1,7 +1,7 @@
 using System;
 using System.Reflection;
 
-namespace AutoMapper.Collection
+namespace Mapper.Collection
 {
     internal static class ReflectionHelper
     {
