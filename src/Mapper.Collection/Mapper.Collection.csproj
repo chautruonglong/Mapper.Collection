@@ -18,6 +18,8 @@
     <Version>9.0.1</Version>
     <RepositoryUrl>https://github.com/chautruonglong/Mapper.Collection</RepositoryUrl>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <AssemblyVersion>9.0.1</AssemblyVersion>
+    <FileVersion>9.0.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
